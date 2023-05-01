@@ -1,0 +1,51 @@
+/*
+    (*) ttf - true type         // 얘네는 웹폰트를 위해서 나온 게 아님. 걍 포토샵 같은 데서 쓰는 확장자.. [저버전]
+    (*) otf - open true type    // 얘네는 낮은 버전에서 폰트를 지원하는 확장자... 없어도 상관없이 다 지원이 됨. [저버전]
+                                   근데 보통 에이전시에서는 모든 폰트를 다 변환함. 모든 사양에 대해서 다 대응하려고.
+    woff                        // 웹오픈폰트포맷 [모던브라우저지원]
+    woff2                       // 웹오픈폰트포맷 [모던브라우저지원] - woff에서 최대 20~50% 압축된 파일
+    eot                         // 익스플로러 지원
+    svg                         // 모바일 - 근데 쓰는 사람 못 봤음.
+*/
+@font-face {
+    font-family: 'Gilory';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Gilory';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Gilory';
+    src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Gilory';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
+
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../fonts/NotoSansKR-Light-Hestia.woff') format('woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../fonts/NotoSansKR-Regular-Hestia.woff') format('woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../fonts/NotoSansKR-Medium-Hestia.woff') format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    src: url('../fonts/NotoSansKR-Bold-Hestia.woff') format('woff');
+    font-weight: 700;
+}
