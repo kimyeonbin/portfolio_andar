@@ -3,8 +3,6 @@
     text-size-adjust: 100%;
     cursor: auto;
     overflow-wrap: break-word;
-    -moz-tab-size: 4;
-    tab-size: 4
 }
 *{
     margin: 0;
