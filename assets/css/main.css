@@ -261,10 +261,10 @@
     line-height: 20px; 
     letter-spacing: -0.03em; 
     font-weight: 500; 
-    background-image: url('../images/ic-arrow.png'); 
-    background-repeat: no-repeat; 
-    background-size: 15px auto; 
-    background-position: calc(100% - 18px) center; 
+    background-image: url('../images/ic-arrow.png');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 18px) center;
+    background-size: 15px auto;
 }
 .sc-theme .prd-list.list2{ 
     padding: 0 16px; 
@@ -338,10 +338,7 @@
     height: 11px; 
     margin-left: 3px; 
     margin-bottom: 2px; 
-    background-image: url('../images/ic-arrow-cate.png'); 
-    background-repeat: no-repeat; 
-    background-size: 15px auto; 
-    background-position: center; 
+    background: url('../images/ic-arrow-cate.png') no-repeat center/15px auto; 
     vertical-align: top; 
     content: ''; 
 }
