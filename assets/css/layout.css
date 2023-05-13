@@ -206,26 +206,6 @@
 .header.fixed .group-flex{ 
     background: #fff; 
 }
-.header.fixed .group-flex .logo svg{
-    width: 87px; 
-    height: 23px;
-}
-.header.fixed .group-flex .btn-menu svg{
-    width: 22px; 
-    height: 17px;
-}
-.header.fixed .group-flex .btn-search svg{
-    width: 17px; 
-    height: 18px;
-}
-.header.fixed .group-flex .btn-cart svg{
-    width: 19px; 
-    height: 18px;
-}
-.header.fixed .group-flex .btn-mypage svg{
-    width: 18px; 
-    height: 18px;
-}
 .header.fixed .group-flex svg path{ 
     fill: #000; 
 }
