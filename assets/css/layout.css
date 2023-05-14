@@ -102,7 +102,7 @@
 
 
 .gnb{ 
-    visibility: visible; 
+    visibility: hidden; 
     opacity: 0; 
     transition: 0.3s; 
     color: #000; 
