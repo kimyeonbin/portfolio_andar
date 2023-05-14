@@ -198,6 +198,19 @@
 
 
 
+/* open */
+.gnb.open .group-nav .btn-all{ 
+    transform: rotate(180deg); 
+}
+.gnb.open .group-nav .nav-list{ 
+    visibility: hidden; 
+}
+.gnb.open .group-nav .all-text{ 
+    display: block; 
+}
+
+
+
 /* fixed */
 .header.fixed{ 
     position: fixed; 
@@ -214,17 +227,6 @@
     opacity: 1; 
 }
 
-
-/* open */
-.gnb.open .group-nav .btn-all{ 
-    transform: rotate(180deg); 
-}
-.gnb.open .group-nav .nav-list{ 
-    visibility: hidden; 
-}
-.gnb.open .group-nav .all-text{ 
-    display: block; 
-}
 
 
 /* dimmed */
