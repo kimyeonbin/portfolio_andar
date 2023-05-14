@@ -17,6 +17,7 @@
 }
 
 
+
 .sc-intro .text-area{ 
     position: absolute; 
     bottom: 0; 
@@ -51,12 +52,6 @@
     background: #fff; 
     border-radius: 0; 
 }
-
-
-
-
-
-
 
 
 
@@ -225,6 +220,8 @@
     color: #C86733; 
 }
 
+
+
 /* 수평구조 */
 .sc-theme .group-theme+.group-theme{ 
     padding-top: 40px; 
@@ -307,6 +304,7 @@
 }
 
 
+
 .sc-cate{ 
     padding-left: 20px; 
 }
@@ -342,9 +340,6 @@
     vertical-align: top; 
     content: ''; 
 }
-
-
-
 
 
 
