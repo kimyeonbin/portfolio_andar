@@ -152,7 +152,7 @@
     position: absolute; 
     top: 11px; 
     right: 16px;
-     width: 28px; 
+    width: 28px; 
     height: 28px; 
 }
 .gnb .group-nav .btn-all::after{
@@ -162,6 +162,7 @@
     background: url('../images/ic-down.png') no-repeat center/12px auto; 
     content: '';
 }
+
 
 
 .gnb .group-all{ 
