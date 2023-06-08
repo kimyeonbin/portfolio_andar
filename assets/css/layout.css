@@ -779,3 +779,9 @@
     vertical-align: top;
     content: '';
 }
+
+@media (max-width: 400px) {
+    .sc-event .swiper-slide{
+        font-size: 10px;
+    }
+}
