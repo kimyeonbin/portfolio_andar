@@ -698,7 +698,7 @@
     height: 10px;
     background: #ccc;
     vertical-align: top;
-    content: "";
+    content: '';
 }
 .footer .nav-area .nav-item a{
     color: #777;
