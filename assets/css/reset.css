@@ -1,8 +1,10 @@
 :root{
     -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
     cursor: auto;
     overflow-wrap: break-word;
+    word-break: break-word;
 }
 *{
     margin: 0;
@@ -30,27 +32,24 @@ button{
     cursor: pointer;
 }
 a{
-    text-decoration: none
+    text-decoration: none;
 }
 table{
     border-collapse: collapse;
-    border-spacing: 0
+    border-spacing: 0;
 }
-
 p{
     margin-block-start: 0;
     margin-block-end: 0;
 }
+fieldset{
+    border: 0;
+}
 body{
-    font-family: 'Gilory','Noto Sans KR',Malgun Gothic,'맑은 고딕',Dotum,'돋움',sans-serif;
+    font-family: 'Gilory', 'Noto Sans KR', Malgun Gothic, '맑은 고딕', Dotum, '돋움', sans-serif;
     min-width: 320px;
     font-size: 13px;
     line-height: 1.2em;
     background: #f1f1f1;
     color: #1b1b1b;
-    -webkit-text-size-adjust: none;
-    -webkit-font-smoothing: antialiased;
-}
-fieldset{
-    border: 0;
 }
