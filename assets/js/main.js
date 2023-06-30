@@ -3,6 +3,11 @@ $(function(){
     const eventSlide = new Swiper('.event-slide',{
         loop: true,
         effect: "fade",
+        a11y: {
+            prevSlideMessage: '이전 슬라이드',
+            nextSlideMessage: '다음 슬라이드',
+            slideLabelMessage: '총 {{slidesLength}}장의 슬라이드 중 {{index}}번 슬라이드 입니다.',
+        },
         autoplay: {
             delay: 1700,
             disableOnInteraction: false
@@ -12,6 +17,11 @@ $(function(){
     const introSlide = new Swiper('.intro-slide',{
         loop: true,
         effect: "fade",
+        a11y: {
+            prevSlideMessage: '이전 슬라이드',
+            nextSlideMessage: '다음 슬라이드',
+            slideLabelMessage: '총 {{slidesLength}}장의 슬라이드 중 {{index}}번 슬라이드 입니다.',
+        },
         autoplay: {
             delay: 1700,
             disableOnInteraction: false
@@ -39,7 +49,7 @@ $(function(){
     // 전체메뉴
     $('.gnb .btn-all').click(function(){
         $('.gnb').toggleClass('open');
-        $('.gnb .group-all').slideToggle();
+        $('.gnb .group-all').stop().slideToggle();
     });
     // 메뉴창
     $('.btn-menu').click(function(){
